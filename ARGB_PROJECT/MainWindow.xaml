@@ -15,11 +15,11 @@
         <Button Name="convert" Content="press to convert" Click="ConvertButton_Click" Visibility="Collapsed"
         FontSize="15" Margin="10" Padding="10" Background="White" Foreground="black"
          HorizontalAlignment="Center" VerticalAlignment="Bottom" FontWeight="ExtraBold" />
-        <UniformGrid x:Name="Pictures" Visibility="Collapsed" VerticalAlignment="Center" HorizontalAlignment="Stretch">
-            <Image x:Name="original" Width="200px" Height="200px" HorizontalAlignment="Center" Margin="20" VerticalAlignment="Center"/>
-            <Image x:Name="red" Width="200px" Height="200px" HorizontalAlignment="Center" Margin="20" VerticalAlignment="Center"/>
-            <Image x:Name="green" Width="200px" Height="200px" HorizontalAlignment="Center" Margin="20" VerticalAlignment="Center"/>
-            <Image x:Name="blue" Width="200px" Height="200px" HorizontalAlignment="Center" Margin="20" VerticalAlignment="Center"/>
-        </UniformGrid>
+        <StackPanel x:Name="Pictures" Visibility="Collapsed" VerticalAlignment="Center" HorizontalAlignment="Stretch" Orientation="Horizontal">
+            <Image x:Name="original" Width="200px" Height="200px" HorizontalAlignment="Center" Margin="0.2" VerticalAlignment="Center"/>
+            <Image x:Name="red" Width="200px" Height="200px" HorizontalAlignment="Center" Margin="0.2" VerticalAlignment="Center"/>
+            <Image x:Name="green" Width="200px" Height="200px" HorizontalAlignment="Center" Margin="0.2" VerticalAlignment="Center"/>
+            <Image x:Name="blue" Width="200px" Height="200px" HorizontalAlignment="Center" Margin="0.2" VerticalAlignment="Center"/>
+        </StackPanel>
     </Grid>
 </Window>
