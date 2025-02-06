@@ -53,7 +53,7 @@ namespace RGB
             }
         }
 
-        private async void ConvertButton_Click(object sender, RoutedEventArgs e)
+        private void ConvertButton_Click(object sender, RoutedEventArgs e)
         {
             UploadedImage.Visibility = Visibility.Collapsed;
             convert.Visibility = Visibility.Collapsed;
